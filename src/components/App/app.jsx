@@ -7,13 +7,6 @@ import TaskList from 'components/TaskList/task-list';
 import Footer from 'components/Footer/footer';
 import 'components/App/app.css';
 
-// const tasksData = [
-//    { id: 1, status: false, description: "Active task", created: Date.now() },
-//    { id: 2, status: false, description: "Active task", created: Date.now() },
-//    { id: 3, status: false, description: "Active task", created: Date.now() },
-//    { id: 4, status: false, description: "Completed task", created: Date.now() },
-// ];
-
 export default function App() {
    const [tasks, setTasks] = useState([]);
    const [filtered, setFiltered] = useState(tasks);
